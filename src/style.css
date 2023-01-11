@@ -1,1 +1,95 @@
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: #279989;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  font-size: 0.6rem;
+  padding: 4%;
+}
+
+h1 {
+  width: 80%;
+}
+
+
+.second-section {
+  background-color: #44a080;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+}
+
+.fa-circle-plus {
+  font-size: 2rem;
+}
+
+nav {
+  width: 80%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  margin: 0 6px;
+}
+
+li:nth-of-type(2) {
+  font-weight: bolder;
+}
+
+
+.main-area {
+  height: 100%;
+  padding: 4%;
+  background-color: #ffc845;
+}
+
+.list-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.list-line:last-of-type {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgb(168, 168, 168);
+  background-color: white;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.total {
+  align-self: flex-end;
+}
